@@ -1,0 +1,71 @@
+#populer{
+    padding-top: 139px;
+    padding-bottom: 90px;
+    background: #191919;
+}
+#populer .text{
+    
+    display: flex;
+    justify-content: end;
+    align-items: end; 
+}
+#populer .text h1{
+    color: #FFF;
+    text-align: right;
+    font-family: Barlow Condensed;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2.66px;
+    width: 460px;
+    position: relative;
+}
+#populer .text h1::after{
+    content: '';
+    width: 105px;
+    height: 3px;
+    background: #FF4655;
+    position: absolute;
+    bottom: 8px;
+    right: 121px;
+}
+#populer .flex .last{
+    margin-top: 80px;
+}
+#populer .flex .fast{
+    margin-top: -135px;
+    display: inline-block;
+    margin-bottom: 0;
+    
+}
+ .carousel-indicators{
+    display: none !important;
+}
+.carousel-control-next{
+    position: absolute;
+    top: inherit !important;
+    right: 0px !important;
+    bottom: 82px !important;
+    height: 40px !important;
+    width: 40px !important;
+    border: 1px solid #FFF !important;
+    border-radius: 50%;
+}
+.carousel-control-prev{
+    left: inherit !important;
+    top: inherit !important;
+    right: 0px !important;
+    bottom: 23px !important;
+    height: 40px !important;
+    width: 40px !important;
+    border: 1px solid #FFF !important;
+    border-radius: 50%;
+
+}
+.carousel-control-next-icon,.carousel-control-prev-icon {
+    width: 18px !important;
+    font-size: 20px !important;
+    color: #FFFFFF !important;
+    
+}

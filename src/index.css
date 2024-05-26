@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Ephesis&family=Open+Sans:wght@300;400;500;600;700&family=Oswald:wght@300;400;500;600;700&family=Pacifico&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto+Condensed:wght@200;300;400;500;600;700;800&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300;400;500;600;700;800;900&display=swap');
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+body{
+    background: #121212 !important;
+}

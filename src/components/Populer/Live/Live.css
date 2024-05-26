@@ -1,0 +1,184 @@
+#live{
+    padding-top: 90px;
+    margin-bottom: 30px;
+} 
+#live h1{
+    color: #FFF;
+    font-family: Oswald;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2.66px;
+    width: 446px;
+    height: 110.182px;
+    position: relative;
+   
+}
+#live h1::after {
+    content: "";
+    width: 120px;
+    height: 3px;
+    background: #FF4655;
+    position: absolute;
+    bottom: 8px;
+    left: 154px;
+}
+.item_box{
+   
+    mix-blend-mode: luminosity;
+    transition: .4s;
+    opacity: .4;
+    cursor: pointer;
+    margin-top: 78px;
+    margin-bottom: 60px;
+    position: relative;
+}
+ .bone{
+    background: url("images/tuna1.png"), lightgray 50% / cover no-repeat;
+}
+ .btwo{
+    background: url("images/tuna2.png"), lightgray 50% / cover no-repeat ;
+}
+
+.bthree{
+    background: url("images/tuna3.png"), lightgray 50% / cover no-repeat;
+}
+.item_box:hover{
+   mix-blend-mode:normal;
+    opacity: 1;
+    transform: scale(1.03);
+
+}
+.item_box .one{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 70px;
+    height: 68.864px;
+    border-radius: 50%;
+    border: 1px solid #FFF;
+}
+.item_box .one img {
+    /* display: inline-block; */
+    text-align: center;
+    margin: 24px 26px;
+}
+.item_box h4{
+    padding-top: 197px;
+    padding-left: 25px;
+    color: #FFF;
+    font-family: Barlow Condensed;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+.lflex{
+    padding-left: 25px;
+    padding-bottom: 11px;
+
+}
+.item_box h5{
+
+    color: #FFF;
+    font-family: Oswald;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.48px;
+   
+}
+.item_box h6{
+    color: #FFF;
+    font-family: Oswald;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 24px;
+    position: relative;
+}
+.item_box h6::after {
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: #FF4655;
+    border-radius: 50%;
+    position: absolute;
+    left: -12px;
+    bottom: 4px; 
+}
+
+.end .flex{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 80px;
+   margin-bottom: 60px;
+}
+.end h3{
+    text-align: center;
+    color: #FFF;
+    font-family: Barlow Condensed;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.25px;
+    margin-bottom: 42px;
+}
+.end .tfast{
+    width: 426px;
+    height: 118.052px;
+    clip-path: polygon(0 2%, 100% 0%, 87% 100%, 0% 100%);
+    background-color: #212121;
+
+    
+}
+
+.end .tlast{
+    width: 426px;
+    height: 118.052px;
+    clip-path: polygon(0 2%, 100% 0%, 100% 100%, 16% 100%);
+    background-color: #212121;
+
+    
+}
+.end .tfast h2{
+    margin-right: 62px;
+
+}
+.end .tlast h2{
+    margin-left: 62px;
+
+}
+
+.end .flex h2{
+    color: #FFF;
+    font-family: Barlow Condensed;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.96px;
+    
+    transition: all .4s linear;
+}
+.end .item h2:hover{
+    color: red;
+}
+.end .time{
+    color: #FFF;
+    font-family: Oswald;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 6px;
+    text-align: center;
+
+}
